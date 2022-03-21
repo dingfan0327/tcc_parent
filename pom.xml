@@ -7,10 +7,10 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.11.RELEASE</version>
     </parent>
-    <groupId>com.tcc</groupId>
-    <artifactId>tcc_parent</artifactId>
+    <groupId>com.seata</groupId>
+    <artifactId>seata_parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tcc_parent</name>
+    <name>seata_parent</name>
 
     <properties>
         <java.version>11</java.version>
@@ -19,10 +19,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>tcc_bussiness</module>
-        <module>tcc_credit</module>
-        <module>tcc_debit</module>
-        <module>tcc_common_db</module>
+        <module>seata_bussiness</module>
+        <module>seata_credit</module>
+        <module>seata_debit</module>
+        <module>seata_common_db</module>
     </modules>
 
     <dependencyManagement>
