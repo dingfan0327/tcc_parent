@@ -1,0 +1,19 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: tcc-debit-service
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seata_02
+    password: 123456
+    username: root
+  # nacos配置
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+  profiles:
+    active: seata

@@ -1,0 +1,5 @@
+# Project exclude paths
+/tcc_bussiness/target/
+/tcc_common_db/target/
+/tcc_credit/target/
+/tcc_debit/target/
